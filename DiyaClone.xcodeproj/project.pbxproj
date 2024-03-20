@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3116214F2BAA38B40093A19D /* NewMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3116214E2BAA38B40093A19D /* NewMessageView.swift */; };
+		311621532BAA417E0093A19D /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311621522BAA417E0093A19D /* SwiftUIView.swift */; };
+		311621552BAA42740093A19D /* DoButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311621542BAA42740093A19D /* DoButtonView.swift */; };
+		31B5CBAE2BAB712A0073473F /* ArmyOfDronesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B5CBAD2BAB712A0073473F /* ArmyOfDronesView.swift */; };
 		31E6E4C82BA8582E00389055 /* DiyaCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E6E4C72BA8582E00389055 /* DiyaCloneApp.swift */; };
-		31E6E4CA2BA8582E00389055 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E6E4C92BA8582E00389055 /* ContentView.swift */; };
+		31E6E4CA2BA8582E00389055 /* NavigationContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E6E4C92BA8582E00389055 /* NavigationContent.swift */; };
 		31E6E4CC2BA8582F00389055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31E6E4CB2BA8582F00389055 /* Assets.xcassets */; };
 		31E6E4CF2BA8582F00389055 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31E6E4CE2BA8582F00389055 /* Preview Assets.xcassets */; };
+		31E6E4D92BA87BDD00389055 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E6E4D82BA87BDD00389055 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3116214E2BAA38B40093A19D /* NewMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessageView.swift; sourceTree = "<group>"; };
+		311621522BAA417E0093A19D /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		311621542BAA42740093A19D /* DoButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoButtonView.swift; sourceTree = "<group>"; };
+		31B5CBAD2BAB712A0073473F /* ArmyOfDronesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmyOfDronesView.swift; sourceTree = "<group>"; };
 		31E6E4C42BA8582E00389055 /* DiyaClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiyaClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31E6E4C72BA8582E00389055 /* DiyaCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiyaCloneApp.swift; sourceTree = "<group>"; };
-		31E6E4C92BA8582E00389055 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		31E6E4C92BA8582E00389055 /* NavigationContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationContent.swift; sourceTree = "<group>"; };
 		31E6E4CB2BA8582F00389055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31E6E4CE2BA8582F00389055 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		31E6E4D82BA87BDD00389055 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +62,9 @@
 			isa = PBXGroup;
 			children = (
 				31E6E4C72BA8582E00389055 /* DiyaCloneApp.swift */,
-				31E6E4C92BA8582E00389055 /* ContentView.swift */,
+				31E6E4D62BA8588800389055 /* Model */,
+				31E6E4D72BA8588B00389055 /* ViewModel */,
+				31E6E4D52BA8588200389055 /* View */,
 				31E6E4CB2BA8582F00389055 /* Assets.xcassets */,
 				31E6E4CD2BA8582F00389055 /* Preview Content */,
 			);
@@ -65,6 +77,33 @@
 				31E6E4CE2BA8582F00389055 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		31E6E4D52BA8588200389055 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				31E6E4C92BA8582E00389055 /* NavigationContent.swift */,
+				31E6E4D82BA87BDD00389055 /* HomeView.swift */,
+				3116214E2BAA38B40093A19D /* NewMessageView.swift */,
+				311621522BAA417E0093A19D /* SwiftUIView.swift */,
+				311621542BAA42740093A19D /* DoButtonView.swift */,
+				31B5CBAD2BAB712A0073473F /* ArmyOfDronesView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		31E6E4D62BA8588800389055 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		31E6E4D72BA8588B00389055 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +176,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31E6E4CA2BA8582E00389055 /* ContentView.swift in Sources */,
+				31E6E4D92BA87BDD00389055 /* HomeView.swift in Sources */,
+				311621552BAA42740093A19D /* DoButtonView.swift in Sources */,
+				31B5CBAE2BAB712A0073473F /* ArmyOfDronesView.swift in Sources */,
+				3116214F2BAA38B40093A19D /* NewMessageView.swift in Sources */,
+				31E6E4CA2BA8582E00389055 /* NavigationContent.swift in Sources */,
 				31E6E4C82BA8582E00389055 /* DiyaCloneApp.swift in Sources */,
+				311621532BAA417E0093A19D /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

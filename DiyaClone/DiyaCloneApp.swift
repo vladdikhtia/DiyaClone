@@ -11,7 +11,7 @@ import SwiftUI
 struct DiyaCloneApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationContent()
         }
     }
 }
