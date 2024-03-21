@@ -73,7 +73,9 @@ struct HomeView: View {
                             
                             ArmyOfDronesView()
                                 .padding()
-//                            SwiftUIView()
+
+                            PopularServicesView()
+                                
                         }
                     }
 

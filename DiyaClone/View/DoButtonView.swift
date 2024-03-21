@@ -34,7 +34,7 @@ struct DoButtonHelp: View {
     
     var body: some View {
         NavigationLink(destination: {
-           SwiftUIView()
+
         }, label: {
             VStack(alignment: .center){
                 Image(systemName: image)

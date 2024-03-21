@@ -29,7 +29,6 @@ struct NewMessageView: View {
                     .offset(y:-20)
                 }
             }
-//            .background(.red)
             .frame(height: 145)
             .tabViewStyle(.page(indexDisplayMode: .always))
             .contentMargins(20, for: .scrollIndicators)
